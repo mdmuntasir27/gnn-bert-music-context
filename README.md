@@ -1,14 +1,5 @@
 # GNN-Based BERT for Understanding Context from Music
 
-**Supervised Neural Network Project**  
-**Course**: Neural Networks (CSE425 / EEE474 / CSE715)  
-**Prepared By**: Moin Mostakim  
-**Submission Deadline**: 2nd October, 2026  
-
-- **Overleaf / Precisom Report Link**: [https://www.overleaf.com/read/gnn-bert-music-context-report](https://www.overleaf.com/read/gnn-bert-music-context-report)  
-
----
-
 ## 1. Project Overview
 
 Music is a multi-layered signal where "context" spans melody, harmony, rhythm, lyrics, metadata tags, and listener-described semantics. Pure sequence models (CNN/RNN on spectrograms) capture local patterns but often miss relational structure: how chord $C \rightarrow G \rightarrow Am$ relates to a lyrical theme, or how repeated segments form a song graph.
@@ -75,6 +66,7 @@ gnn-bert-music-context/
 ├── README.md                          # Comprehensive instructions and documentation
 ├── requirements.txt                   # Pinned dependency specifications
 ├── config.yaml                        # Project configuration and hyperparameters
+├── run_full_pipeline.py               # Synthetic pipeline validation runner
 ├── data/
 │   ├── raw/                           # Raw audio files and metadata
 │   ├── magnatagatune/                 # Real MagnaTagATune preprocessed cache (primary)
@@ -102,18 +94,22 @@ gnn-bert-music-context/
 │   ├── magnatagatune_metrics.json          # PRIMARY: real-data benchmark metrics (seed 42)
 │   ├── magnatagatune_ablation.json         # PRIMARY: single-seed ablation (seed 42)
 │   ├── magnatagatune_ablation_multiseed.json # PRIMARY: 3-seed mean±std ablation
+│   ├── gnn_ablation_metrics.json           # GNN-specific ablation metrics
 │   ├── metrics.json                        # SUPPLEMENTARY: synthetic pipeline-validation only
-│   └── checkpoints/                        # Saved PyTorch model weights (.pt)
-├── plots/
-│   ├── mtt_f1_curves.png              # F1 convergence on real MagnaTagATune data
-│   └── mtt_ablation_comparison.png    # Ablation bar chart (real data)
-├── retrieval_examples/
-│   └── case_studies.md                # 3 qualitative case studies (architecture illustrations)
+│   ├── checkpoints/                        # Saved PyTorch model weights (.pt)
+│   ├── plots/
+│   │   ├── mtt_f1_curves.png              # F1 convergence on real MagnaTagATune data
+│   │   ├── mtt_ablation_comparison.png    # Ablation bar chart (real data)
+│   │   ├── ablation_comparison.png        # General ablation comparison chart
+│   │   ├── auc_pr_curves.png              # AUC-PR curves
+│   │   ├── f1_curves.png                  # F1 training curves
+│   │   └── tsne_embeddings.png            # t-SNE embedding visualization
+│   └── retrieval_examples/
+│       ├── case_studies.md                # 3 qualitative case studies (architecture illustrations)
+│       ├── retrieval_qualitative.json     # Retrieval results (JSON)
+│       └── retrieval_qualitative.md       # Retrieval results (Markdown)
 └── report/
-    ├── report.tex                     # LaTeX source (IEEE format)
-    ├── references.bib                 # BibTeX citations
-    ├── generate_pdf_report.py         # PDF compiler (generates final_report.pdf)
-    └── final_report.pdf               # 8-page final report
+    ├── final_report.pdf
 ```
 
 ---
@@ -149,10 +145,12 @@ python run_full_pipeline.py
 ```
 > This runs on 100 synthesized tracks for code-correctness validation only. Do not cite these results as primary evidence.
 
-### 4. Generate Final Report PDF
-```bash
-python report/generate_pdf_report.py
+### 4. View Final Report
+The compiled report is available as a zip archive:
 ```
+report/final_report.zip
+```
+Extract it to find `ieee_conference_report.tex` (LaTeX source) and all embedded figures in `report/zip_contents/`.
 
 ---
 
@@ -162,7 +160,7 @@ python report/generate_pdf_report.py
 - [x] **Real Dataset**: 500 MagnaTagATune tracks with artist-grouped splits and preprocessed cache.
 - [x] **Preprocessed Graph Samples**: Over 20 `.pt` and `.json` graphs in `data/magnatagatune/processed/`.
 - [x] **Dataset Partitioning**: Strict 3-way train/val/test splits without artist leakage.
-- [x] **Evaluation Plots**: F1 curves, ablation charts in `plots/`.
-- [x] **Qualitative Case Studies**: 3 architecture illustrations in `retrieval_examples/case_studies.md`.
-- [x] **Academic Report**: Complete 8-page paper in `report/final_report.pdf` with LaTeX source.
+- [x] **Evaluation Plots**: F1 curves, ablation charts in `results/plots/`.
+- [x] **Qualitative Case Studies**: 3 architecture illustrations in `results/retrieval_examples/case_studies.md`.
+- [x] **Academic Report**: Compressed 8-page paper package in `report/final_report.zip` with LaTeX source in `report/zip_contents/`.
 - [x] **Demonstration Notebook**: End-to-end inference walkthrough in `notebooks/demo_context.ipynb`.
