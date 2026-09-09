@@ -1,0 +1,51 @@
+{
+  "Random / Majority (B1)": {
+    "Macro-F1": 0.006,
+    "Micro-F1": 0.035,
+    "AUC-PR": 0.097,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "CNN Mel-Spec (B2)": {
+    "Macro-F1": 0.2,
+    "Micro-F1": 0.223,
+    "AUC-PR": 0.25,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "Task 1: BERT-Only": {
+    "Macro-F1": 0.055,
+    "Micro-F1": 0.116,
+    "AUC-PR": 0.126,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "Task 2: GNN-Only (Vanilla)": {
+    "Macro-F1": 0.199,
+    "Micro-F1": 0.213,
+    "AUC-PR": 0.277,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "Task 2: GNN-Only (Relation-Aware)": {
+    "Macro-F1": 0.19,
+    "Micro-F1": 0.213,
+    "AUC-PR": 0.279,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "Ablation: Early Concat": {
+    "Macro-F1": 0.169,
+    "Micro-F1": 0.177,
+    "AUC-PR": 0.137,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "Task 3: GNN-BERT (Cross-Attn)": {
+    "Macro-F1": 0.169,
+    "Micro-F1": 0.177,
+    "AUC-PR": 0.145,
+    "MAE (Emotion)": null,
+    "R@5": null
+  }
+}

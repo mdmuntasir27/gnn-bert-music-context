@@ -1,0 +1,450 @@
+[
+  {
+    "query_id": 1,
+    "query_caption": "This electronic track features prominent electronic with a electronic feel.",
+    "ground_truth_track": "track_0085",
+    "ground_truth_genre": "electronic",
+    "top_3_retrieved_clips": [
+      {
+        "rank": 1,
+        "matched_track_id": "track_0085",
+        "title": "Neon Pulse - Melody 85",
+        "genre": "electronic",
+        "tags": [
+          "synthesizer",
+          "electronic"
+        ],
+        "similarity_score": 0.89,
+        "match_verdict": "Exact Ground Truth Match"
+      },
+      {
+        "rank": 2,
+        "matched_track_id": "track_0089",
+        "title": "Aurora Sound - Melody 89",
+        "genre": "electronic",
+        "tags": [
+          "energetic",
+          "electronic"
+        ],
+        "similarity_score": 0.8056,
+        "match_verdict": "High Semantic Alignment"
+      },
+      {
+        "rank": 3,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.6452,
+        "match_verdict": "Moderate Acoustic Overlap"
+      }
+    ]
+  },
+  {
+    "query_id": 2,
+    "query_caption": "Dynamic hip-hop performance with rich musical context including hip-hop, vocal.",
+    "ground_truth_track": "track_0086",
+    "ground_truth_genre": "hip-hop",
+    "top_3_retrieved_clips": [
+      {
+        "rank": 1,
+        "matched_track_id": "track_0086",
+        "title": "Neon Pulse - Melody 86",
+        "genre": "hip-hop",
+        "tags": [
+          "hip-hop",
+          "vocal"
+        ],
+        "similarity_score": 0.9079,
+        "match_verdict": "Exact Ground Truth Match"
+      },
+      {
+        "rank": 2,
+        "matched_track_id": "track_0085",
+        "title": "Neon Pulse - Melody 85",
+        "genre": "electronic",
+        "tags": [
+          "synthesizer",
+          "electronic"
+        ],
+        "similarity_score": 0.734,
+        "match_verdict": "High Semantic Alignment"
+      },
+      {
+        "rank": 3,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.5703,
+        "match_verdict": "Moderate Acoustic Overlap"
+      }
+    ]
+  },
+  {
+    "query_id": 3,
+    "query_caption": "An expressive jazz song performed by Aurora Sound, showcasing piano throughout the progression.",
+    "ground_truth_track": "track_0087",
+    "ground_truth_genre": "jazz",
+    "top_3_retrieved_clips": [
+      {
+        "rank": 1,
+        "matched_track_id": "track_0087",
+        "title": "Aurora Sound - Melody 87",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "piano"
+        ],
+        "similarity_score": 0.8646,
+        "match_verdict": "Exact Ground Truth Match"
+      },
+      {
+        "rank": 2,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.798,
+        "match_verdict": "High Semantic Alignment"
+      },
+      {
+        "rank": 3,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.6281,
+        "match_verdict": "Moderate Acoustic Overlap"
+      }
+    ]
+  },
+  {
+    "query_id": 4,
+    "query_caption": "A piece of folk music characterized by harmonic chord shifts, featuring acoustic guitar.",
+    "ground_truth_track": "track_0088",
+    "ground_truth_genre": "folk",
+    "top_3_retrieved_clips": [
+      {
+        "rank": 1,
+        "matched_track_id": "track_0088",
+        "title": "Aurora Sound - Melody 88",
+        "genre": "folk",
+        "tags": [
+          "vocal",
+          "melancholic",
+          "folk",
+          "acoustic guitar"
+        ],
+        "similarity_score": 0.9166,
+        "match_verdict": "Exact Ground Truth Match"
+      },
+      {
+        "rank": 2,
+        "matched_track_id": "track_0094",
+        "title": "Urban Beat - Melody 94",
+        "genre": "folk",
+        "tags": [
+          "vocal",
+          "folk"
+        ],
+        "similarity_score": 0.7219,
+        "match_verdict": "High Semantic Alignment"
+      },
+      {
+        "rank": 3,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.6761,
+        "match_verdict": "Moderate Acoustic Overlap"
+      }
+    ]
+  },
+  {
+    "query_id": 5,
+    "query_caption": "An expressive electronic song performed by Aurora Sound, showcasing electronic throughout the progression.",
+    "ground_truth_track": "track_0089",
+    "ground_truth_genre": "electronic",
+    "top_3_retrieved_clips": [
+      {
+        "rank": 1,
+        "matched_track_id": "track_0089",
+        "title": "Aurora Sound - Melody 89",
+        "genre": "electronic",
+        "tags": [
+          "energetic",
+          "electronic"
+        ],
+        "similarity_score": 0.9266,
+        "match_verdict": "Exact Ground Truth Match"
+      },
+      {
+        "rank": 2,
+        "matched_track_id": "track_0085",
+        "title": "Neon Pulse - Melody 85",
+        "genre": "electronic",
+        "tags": [
+          "synthesizer",
+          "electronic"
+        ],
+        "similarity_score": 0.7391,
+        "match_verdict": "High Semantic Alignment"
+      },
+      {
+        "rank": 3,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.5736,
+        "match_verdict": "Moderate Acoustic Overlap"
+      }
+    ]
+  },
+  {
+    "query_id": 6,
+    "query_caption": "A piece of classical music characterized by harmonic chord shifts, featuring strings.",
+    "ground_truth_track": "track_0090",
+    "ground_truth_genre": "classical",
+    "top_3_retrieved_clips": [
+      {
+        "rank": 1,
+        "matched_track_id": "track_0090",
+        "title": "Urban Beat - Melody 90",
+        "genre": "classical",
+        "tags": [
+          "classical",
+          "strings"
+        ],
+        "similarity_score": 0.8747,
+        "match_verdict": "Exact Ground Truth Match"
+      },
+      {
+        "rank": 2,
+        "matched_track_id": "track_0093",
+        "title": "Neon Pulse - Melody 93",
+        "genre": "classical",
+        "tags": [
+          "classical",
+          "calm",
+          "strings"
+        ],
+        "similarity_score": 0.7474,
+        "match_verdict": "High Semantic Alignment"
+      },
+      {
+        "rank": 3,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.6182,
+        "match_verdict": "Moderate Acoustic Overlap"
+      }
+    ]
+  },
+  {
+    "query_id": 7,
+    "query_caption": "An expressive electronic song performed by Urban Beat, showcasing electronic throughout the progression.",
+    "ground_truth_track": "track_0091",
+    "ground_truth_genre": "electronic",
+    "top_3_retrieved_clips": [
+      {
+        "rank": 1,
+        "matched_track_id": "track_0091",
+        "title": "Urban Beat - Melody 91",
+        "genre": "electronic",
+        "tags": [
+          "drums",
+          "electronic"
+        ],
+        "similarity_score": 0.8946,
+        "match_verdict": "Exact Ground Truth Match"
+      },
+      {
+        "rank": 2,
+        "matched_track_id": "track_0085",
+        "title": "Neon Pulse - Melody 85",
+        "genre": "electronic",
+        "tags": [
+          "synthesizer",
+          "electronic"
+        ],
+        "similarity_score": 0.7462,
+        "match_verdict": "High Semantic Alignment"
+      },
+      {
+        "rank": 3,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.6295,
+        "match_verdict": "Moderate Acoustic Overlap"
+      }
+    ]
+  },
+  {
+    "query_id": 8,
+    "query_caption": "This rock track features prominent fast tempo, energetic, rock with a fast tempo feel.",
+    "ground_truth_track": "track_0092",
+    "ground_truth_genre": "rock",
+    "top_3_retrieved_clips": [
+      {
+        "rank": 1,
+        "matched_track_id": "track_0092",
+        "title": "Neon Pulse - Melody 92",
+        "genre": "rock",
+        "tags": [
+          "electric guitar",
+          "fast tempo",
+          "energetic",
+          "rock"
+        ],
+        "similarity_score": 0.8712,
+        "match_verdict": "Exact Ground Truth Match"
+      },
+      {
+        "rank": 2,
+        "matched_track_id": "track_0085",
+        "title": "Neon Pulse - Melody 85",
+        "genre": "electronic",
+        "tags": [
+          "synthesizer",
+          "electronic"
+        ],
+        "similarity_score": 0.7463,
+        "match_verdict": "High Semantic Alignment"
+      },
+      {
+        "rank": 3,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.5976,
+        "match_verdict": "Moderate Acoustic Overlap"
+      }
+    ]
+  },
+  {
+    "query_id": 9,
+    "query_caption": "A piece of classical music characterized by harmonic chord shifts, featuring strings.",
+    "ground_truth_track": "track_0093",
+    "ground_truth_genre": "classical",
+    "top_3_retrieved_clips": [
+      {
+        "rank": 1,
+        "matched_track_id": "track_0093",
+        "title": "Neon Pulse - Melody 93",
+        "genre": "classical",
+        "tags": [
+          "classical",
+          "calm",
+          "strings"
+        ],
+        "similarity_score": 0.8965,
+        "match_verdict": "Exact Ground Truth Match"
+      },
+      {
+        "rank": 2,
+        "matched_track_id": "track_0090",
+        "title": "Urban Beat - Melody 90",
+        "genre": "classical",
+        "tags": [
+          "classical",
+          "strings"
+        ],
+        "similarity_score": 0.7907,
+        "match_verdict": "High Semantic Alignment"
+      },
+      {
+        "rank": 3,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.576,
+        "match_verdict": "Moderate Acoustic Overlap"
+      }
+    ]
+  },
+  {
+    "query_id": 10,
+    "query_caption": "Dynamic folk performance with rich musical context including vocal, folk.",
+    "ground_truth_track": "track_0094",
+    "ground_truth_genre": "folk",
+    "top_3_retrieved_clips": [
+      {
+        "rank": 1,
+        "matched_track_id": "track_0094",
+        "title": "Urban Beat - Melody 94",
+        "genre": "folk",
+        "tags": [
+          "vocal",
+          "folk"
+        ],
+        "similarity_score": 0.9011,
+        "match_verdict": "Exact Ground Truth Match"
+      },
+      {
+        "rank": 2,
+        "matched_track_id": "track_0088",
+        "title": "Aurora Sound - Melody 88",
+        "genre": "folk",
+        "tags": [
+          "vocal",
+          "melancholic",
+          "folk",
+          "acoustic guitar"
+        ],
+        "similarity_score": 0.7733,
+        "match_verdict": "High Semantic Alignment"
+      },
+      {
+        "rank": 3,
+        "matched_track_id": "track_0099",
+        "title": "Urban Beat - Melody 99",
+        "genre": "jazz",
+        "tags": [
+          "jazz",
+          "romantic"
+        ],
+        "similarity_score": 0.556,
+        "match_verdict": "Moderate Acoustic Overlap"
+      }
+    ]
+  }
+]

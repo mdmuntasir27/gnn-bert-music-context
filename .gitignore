@@ -1,0 +1,90 @@
+# ============================================================
+# GNN-BERT Music Context — .gitignore
+# ============================================================
+
+# ----------------------------------------------------------
+# Python
+# ----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----------------------------------------------------------
+# Jupyter Notebook
+# ----------------------------------------------------------
+.ipynb_checkpoints/
+
+# ----------------------------------------------------------
+# Large binary data / model files  (GitHub 100 MB limit)
+# ----------------------------------------------------------
+
+# PyTorch checkpoint files — too large for GitHub
+results/checkpoints/*.pt
+
+# Large MagnaTagATune dataset cache (691 MB — exclude entirely)
+data/magnatagatune/dataset_cache.pt
+
+# Raw MP3 audio files — not redistributable + too large
+data/raw/magnatagatune/mp3/
+
+# ----------------------------------------------------------
+# Keep directory structure with .gitkeep
+# (do NOT ignore .gitkeep files)
+# ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# OS / Editor
+# ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------------------------------------------
+# Test / coverage
+# ----------------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ----------------------------------------------------------
+# Misc
+# ----------------------------------------------------------
+*.log
+*.tmp
+*.bak

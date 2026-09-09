@@ -1,0 +1,52 @@
+{
+  "_note": "Synthetic pipeline-validation benchmark (100 synthesized tracks, seed 42). These are sanity-check results only. Primary benchmark is results/magnatagatune_metrics.json (500 real MagnaTagATune tracks).",
+  "Random / Majority (B1)": {
+    "Macro-F1": 0.057,
+    "Micro-F1": 0.230,
+    "AUC-PR": 0.127,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "CNN Mel-Spec (B2)": {
+    "Macro-F1": 0.252,
+    "Micro-F1": 0.282,
+    "AUC-PR": 0.606,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "Task 1: BERT-Only": {
+    "Macro-F1": 0.340,
+    "Micro-F1": 0.410,
+    "AUC-PR": 0.791,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "Task 2: GNN-Only (Vanilla)": {
+    "Macro-F1": 0.1193,
+    "Micro-F1": 0.2080,
+    "AUC-PR": 0.3595,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "Task 2: GNN-Only (Relation-Aware)": {
+    "Macro-F1": 0.1450,
+    "Micro-F1": 0.2311,
+    "AUC-PR": 0.3372,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "Ablation: Early Concat": {
+    "Macro-F1": 0.497,
+    "Micro-F1": 0.587,
+    "AUC-PR": 0.867,
+    "MAE (Emotion)": null,
+    "R@5": null
+  },
+  "Task 3: GNN-BERT (Cross-Attn)": {
+    "Macro-F1": 0.518,
+    "Micro-F1": 0.587,
+    "AUC-PR": 0.846,
+    "MAE (Emotion)": null,
+    "R@5": null
+  }
+}

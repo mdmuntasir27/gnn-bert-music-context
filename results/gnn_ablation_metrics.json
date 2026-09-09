@@ -1,0 +1,12 @@
+{
+  "Original GraphSAGE": {
+    "Macro-F1": 0.1193,
+    "Micro-F1": 0.208,
+    "AUC-PR": 0.3595
+  },
+  "Relation-Aware GraphSAGE": {
+    "Macro-F1": 0.145,
+    "Micro-F1": 0.2311,
+    "AUC-PR": 0.3372
+  }
+}
